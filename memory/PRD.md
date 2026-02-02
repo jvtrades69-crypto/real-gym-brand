@@ -110,3 +110,11 @@ Restore and enhance the RAZE Training e-commerce application from the user's Git
 ### January 7, 2025 - Session 1
 - Added currency localization with region-specific currencies (USD, EUR, JPY, CNY, KRW)
 - Multi-language support (10 languages)
+
+### February 2, 2025 - Restoration Session
+- Restored codebase from GitHub: https://github.com/dilatory1billion-pixel/gymf-ewf-we
+- Installed frontend dependencies (yarn install)
+- Installed backend dependencies (resend, shippo)
+- Backend API: Running at localhost:8001
+- Frontend: Running at localhost:3000
+- Test results: 77% overall (Backend 64.3%, Frontend 90%)
