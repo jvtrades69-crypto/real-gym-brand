@@ -1,0 +1,93 @@
+{
+  "timestamp": "2026-02-02T02:07:53.608109",
+  "total_tests": 14,
+  "passed_tests": 9,
+  "success_rate": 64.28571428571429,
+  "backend_healthy": true,
+  "test_details": [
+    {
+      "test": "API Root Endpoint",
+      "success": true,
+      "details": "Got: RAZE API",
+      "timestamp": "2026-02-02T02:07:52.075582"
+    },
+    {
+      "test": "Public Stats Endpoint",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-02-02T02:07:52.152629"
+    },
+    {
+      "test": "Image Proxy",
+      "success": true,
+      "details": "CORS image proxy",
+      "timestamp": "2026-02-02T02:07:52.744085"
+    },
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": "Token received: True",
+      "timestamp": "2026-02-02T02:07:52.849044"
+    },
+    {
+      "test": "User Login",
+      "success": true,
+      "details": "Token received: True",
+      "timestamp": "2026-02-02T02:07:52.956153"
+    },
+    {
+      "test": "Session Validation",
+      "success": false,
+      "details": "User: Unknown",
+      "timestamp": "2026-02-02T02:07:52.996582"
+    },
+    {
+      "test": "Admin Login",
+      "success": true,
+      "details": "Admin token received: True",
+      "timestamp": "2026-02-02T02:07:53.034343"
+    },
+    {
+      "test": "Email Subscription",
+      "success": true,
+      "details": "Successfully subscribed!",
+      "timestamp": "2026-02-02T02:07:53.080550"
+    },
+    {
+      "test": "Waitlist Join",
+      "success": true,
+      "details": "Position: None",
+      "timestamp": "2026-02-02T02:07:53.171767"
+    },
+    {
+      "test": "Promo Code Validation",
+      "success": true,
+      "details": "Discount: $5.0",
+      "timestamp": "2026-02-02T02:07:53.219120"
+    },
+    {
+      "test": "Shipping Rates",
+      "success": false,
+      "details": "Rates count: 0",
+      "timestamp": "2026-02-02T02:07:53.254664"
+    },
+    {
+      "test": "Visitor Tracking",
+      "success": false,
+      "details": "Session ID: Unknown",
+      "timestamp": "2026-02-02T02:07:53.529706"
+    },
+    {
+      "test": "Admin Stats",
+      "success": false,
+      "details": "Users: 0, Orders: 0",
+      "timestamp": "2026-02-02T02:07:53.569933"
+    },
+    {
+      "test": "Analytics Overview",
+      "success": false,
+      "details": "Visitors: 0",
+      "timestamp": "2026-02-02T02:07:53.607831"
+    }
+  ]
+}
