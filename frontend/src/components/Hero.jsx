@@ -28,7 +28,7 @@ const Hero = ({ onEarlyAccessClick }) => {
       <div className="hero-inner">
         {/* Text content */}
         <div className="hero-content">
-          <h1 className="hero-title">RAZE</h1>
+          <h1 className="hero-title">RERISE</h1>
           <p className="hero-tagline">{t('hero.tagline')}</p>
           <p className="hero-description">
             {t('hero.description')}
